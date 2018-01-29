@@ -1,3 +1,16 @@
 .main-text {
     top: 28vh;
 }
+#services h5 {
+    text-align: center;
+}
+.flexnotes-img {
+    border: 1px solid #000;
+}
+.flexnotes-container {
+    display: flex;
+    align-items: center;
+}
+.push-down {
+    margin-top: 0;
+}
