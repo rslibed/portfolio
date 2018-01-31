@@ -25,5 +25,8 @@
 }
 .project-image {
     height: 30vh;
-    width: 25vw;    
+    width: 70vw;    
+}
+.cancelFloat {
+    float: none;
 }
