@@ -1,5 +1,5 @@
 .main-text {
-  top: 28vh;
+  top: 25vh;
 }
 #services h5 {
   text-align: center;
@@ -29,4 +29,12 @@
 }
 .cancelFloat {
   float: none;
+}
+#home {
+  background: url('../images/cityscape.jpeg');
+  background-size: cover;
+}
+#home #greeting,
+#home #role {
+  color: #fff;
 }
