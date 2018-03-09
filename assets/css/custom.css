@@ -1,3 +1,6 @@
+.main-content {
+  width: 100%;
+}
 .main-text {
   top: 25vh;
 }
@@ -37,4 +40,7 @@
 #home #greeting,
 #home #role {
   color: #fff;
+}
+.about-text {
+  line-height: 1.6em;
 }
