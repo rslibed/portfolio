@@ -43,4 +43,6 @@
 }
 .about-text {
   line-height: 1.6em;
+  text-align: left;
+  text-indent: 6%;
 }
