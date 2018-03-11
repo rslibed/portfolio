@@ -1,16 +1,12 @@
 $(window).scroll(() => {
-  //   console.log('The page has been scrolled');
-  //   $('#site-nav').css('height', '1px');
   $('#site-nav').attr('aria-expanded', false);
+  $('.navbar-toggle').attr('aria-expanded', false);
+  $('.navbar-toggle').addClass('collapsed');
   $('#site-nav').removeClass('in');
 });
 $('#main-content').click(() => {
-  //   console.log('The page has been scrolled');
-  //   $('#site-nav').css('height', '1px');
   $('#site-nav').attr('aria-expanded', false);
+  $('.navbar-toggle').attr('aria-expanded', false);
+  $('.navbar-toggle').addClass('collapsed');
   $('#site-nav').removeClass('in');
 });
-// $(window).scroll(() => {
-//     console.log('The page has been scrolled');
-//     $('#site-nav').css('height', '1px');
-//   });
