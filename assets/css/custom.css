@@ -52,13 +52,13 @@
 .project-links {
   white-space: nowrap;
 }
-@media (min-width: 375px) and (orientation: portrait) {
+@media (max-width: 375px) and (orientation: portrait) {
   .project-image {
     height: 40vh;
     margin-bottom: 3vh;
   }
 }
-@media (min-height: 375px) and (orientation: landscape) {
+@media (max-height: 375px) and (orientation: landscape) {
   .project-image {
     height: 65vh;
     margin-bottom: 3vh;
