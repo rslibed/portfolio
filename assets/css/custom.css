@@ -76,6 +76,9 @@
   white-space: nowrap;
 }
 @media (max-width: 375px) and (orientation: portrait) {
+  .landscape-mobile {
+    text-align: left;
+  }
 }
 @media (max-height: 380px) and (orientation: landscape) {
   #services h5 {

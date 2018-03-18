@@ -106,15 +106,6 @@ $(document).ready(function() {
           $('#contact-form .form-control').removeClass('input-filled');
         }
       });
-      //   $.post($(this).attr('action'), formInput, function(data) {
-      //     console.log('message is sending...');
-      //   })
-      //     .done(function() {
-
-      //     })
-      //     .fail(function() {
-
-      //     });
     }
 
     return false;
