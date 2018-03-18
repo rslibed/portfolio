@@ -4,6 +4,23 @@
 .main-text {
   top: 25vh;
 }
+#custom-brand.custom-navbar-brand {
+  font-size: 5vmin;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #89949c;
+}
+#custom-brand.custom-navbar-brand:hover {
+  color: #00cccb;
+}
+.custom-navbar-brand {
+  font-family: 'Cookie', cursive;
+}
+#greeting,
+#role {
+  text-shadow: 8px 8px 5px #000;
+}
 #services h5 {
   text-align: center;
   font-size: 1.2em;
@@ -27,8 +44,7 @@
   margin: 0 auto;
 }
 .project-image {
-  height: 30vh;
-  width: 70vw;
+  margin-bottom: 3vh;
 }
 .cancelFloat {
   float: none;
@@ -36,6 +52,13 @@
 #home {
   background: url('../images/cityscape.jpeg');
   background-size: cover;
+}
+.opacity-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.4;
 }
 #home #greeting,
 #home #role {
@@ -53,17 +76,14 @@
   white-space: nowrap;
 }
 @media (max-width: 375px) and (orientation: portrait) {
-  .project-image {
-    height: 40vh;
-    margin-bottom: 3vh;
-  }
 }
-@media (max-height: 375px) and (orientation: landscape) {
-  .project-image {
-    height: 65vh;
-    margin-bottom: 3vh;
-  }
+@media (max-height: 380px) and (orientation: landscape) {
   #services h5 {
     font-size: 0.7em;
+  }
+  .landscape-mobile {
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
   }
 }
